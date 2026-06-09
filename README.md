@@ -1,2 +1,7 @@
 # pm-ai
-AI workflows, prompts, and templates for PM work
+Repo for PM AI workflows, prompts, templates, and product signals.
+
+Main focus:
+- customer insights
+- product signals
+- PRD and GTM drafting
