@@ -1,0 +1,45 @@
+# Dasha's PM Operating System
+This folder turns the Hejo context into repeatable AI-assisted PM workflows.
+
+The first three building blocks are:
+
+1. Product-area ontology: 
+2. Weekly signal digest workflow: 
+3. Initiative case workflow: 
+
+The first seeded outputs are:
+
+- Signal digest seed: 
+- Initiative case seed: 
+
+The reusable skills and eval suite are indexed in SKILLS_AND_EVALS.md.
+
+## Repo Structure
+'''
+pm-os/
+  skills/          # Repo-managed Codex skill packages
+  evals/           # Eval cases, rubrics, and static checks
+  ontology/        # Product area and routing taxonomy
+  workflows/       # Repeatable PM workflows
+  templates/       # Official BRD/PRD snapshots and PM OS output templates
+  initiative-cases/ # Seed and example Product Initiative Cases
+  signals/         # Seed and example signal digests
+  scripts/         # Repo maintenance helpers
+'''
+Use 'pm-os/scripts/install-skills.sh' to copy repo-managed skills into the local Codex skill directory when needed.
+
+The latest fetched Google Docs snapshots are:
+
+- BRD template: templates/brd-template.md
+- PRD template: templates/prd-template.md
+
+Use this as the source of truth when asking Codex to classify customer signals, prepare BRD/PRD inputs, review roadmap priorities, or explain how Ahoy and UI Foundation map to Contentful's Horizon 1 and Horizon 2 strategy.
+
+## Operating Loop
+
+## What Good Looks Like
+- Signals are routed to Hejo adjacent dependency, or out-of-scope.
+- Customer and revenue evidence are separated from PM inference.
+- Every recommendation is tagged to Horizon 1, Horizon 2, and one or more strategic pillars.
+- The output makes the "so what" obvious for enterprise customers and Contentful.
+- Team capacity is translated into company-level outcomes and prioritization language.
